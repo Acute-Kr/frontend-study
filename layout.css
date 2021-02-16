@@ -1,0 +1,38 @@
+.s1 ul{
+    display: flex;
+
+    flex-flow : column wrap;
+    height: 200px;
+}
+
+.s1 li{
+    flex:0 0 100px;
+   flex-grow : 1;
+    
+    
+}
+.s1 li:nth-child(1){
+    background: red;
+    order:4;
+}
+
+.s1 li:nth-child(2){
+    background: green;
+    order:2;
+    
+}
+
+.s1 li:nth-child(3){
+    background: blue;
+    order:3;
+}
+
+.s1 li:nth-child(4){
+    order:1;
+    background: skyblue;
+}
+
+.s1 li:nth-child(5){
+    order:5;
+    background: yellowgreen;
+}
